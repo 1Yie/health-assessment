@@ -238,7 +238,7 @@ export default function WelcomePage() {
                 No lengthy forms or confusing questions. Our smart assessment adapts in real-time to
                 your answers — asking only what matters so you reach your plan faster.
               </p>
-              <div className="mt-6 flex gap-3">
+              <div className="mt-6 flex flex-wrap gap-3">
                 {["Gender", "Body Data", "Goals", "Frequency"].map((s) => (
                   <span
                     key={s}
